@@ -55,6 +55,10 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+# Solution Items (drop in from Epi on local)
+Solution Items/References/*
+!.gitkeep
+
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml

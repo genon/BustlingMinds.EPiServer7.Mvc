@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BustlingMinds.Episerver7.Mvc.Common.Domain.PageTypes;
 using EPiServer;
 using EPiServer.Core;
 using EPiServer.Filters;

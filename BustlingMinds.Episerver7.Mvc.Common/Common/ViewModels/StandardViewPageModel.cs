@@ -1,6 +1,6 @@
 ﻿using EPiServer.Core;
 
-namespace TestlessMVC.Common.Common.ViewModels
+namespace BustlingMinds.Episerver7.Mvc.Common.Common.ViewModels
 {
     public class StandardViewPageModel
     {

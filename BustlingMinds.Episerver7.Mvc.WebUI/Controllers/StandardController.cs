@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
+using BustlingMinds.Episerver7.Mvc.Common.Common.ViewModels;
 using EPiServer.Web.Mvc;
-using TestlessMVC.Common.Common.ViewModels;
 using TestlessMVC.Common.Domain.PageTypes;
 
-namespace TestlessMVC.WebUI.Controllers
+namespace BustlingMinds.Episerver7.Mvc.WebUI.Controllers
 {
     public class StandardController : PageController<StandardPage>
     {

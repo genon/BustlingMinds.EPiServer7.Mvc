@@ -1,4 +1,4 @@
-﻿namespace TestlessMVC.WebUI.Controllers
+﻿namespace BustlingMinds.Episerver7.Mvc.Common.Common.ViewModels
 {
     public class MenuLink
     {

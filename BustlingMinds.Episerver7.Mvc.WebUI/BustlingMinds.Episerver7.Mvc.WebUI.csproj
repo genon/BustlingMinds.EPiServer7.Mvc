@@ -161,7 +161,7 @@
     <Content Include="EPiServerFramework.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestlessMVC.Common\BustlingMinds.Episerver7.Mvc.Common.csproj">
+    <ProjectReference Include="..\BustlingMinds.Episerver7.Mvc.Common\BustlingMinds.Episerver7.Mvc.Common.csproj">
       <Project>{7813f873-efb9-4654-be44-0a60b7207f31}</Project>
       <Name>BustlingMinds.Episerver7.Mvc.Common</Name>
     </ProjectReference>

@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
+using BustlingMinds.Episerver7.Mvc.Common.Common.ViewModels;
+using BustlingMinds.Episerver7.Mvc.Common.Domain.PageTypes;
 using EPiServer.Web.Mvc;
-using TestlessMVC.Common.Common.ViewModels;
-using TestlessMVC.Common.Domain.PageTypes;
 
-namespace TestlessMVC.WebUI.Controllers
+namespace BustlingMinds.Episerver7.Mvc.WebUI.Controllers
 {
     public class StartController : PageController<StartPage>
     {
@@ -15,7 +15,6 @@ namespace TestlessMVC.WebUI.Controllers
                                 Heading = currentPage.Heading,
                                 Headline = currentPage.Headline,
                                 Body = currentPage.MainBody,
-                                News = currentPage.NewsBlock,
                                 ContentAreaLeft = currentPage.ContentAreaLeft,
                                 ContentAreaRight = currentPage.ContentAreaRight,
                             };

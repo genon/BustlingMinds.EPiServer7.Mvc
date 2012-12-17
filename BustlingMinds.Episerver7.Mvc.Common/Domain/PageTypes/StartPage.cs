@@ -2,9 +2,9 @@
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
-using TestlessMVC.Common.Domain.BlockTypes;
+using TestlessMVC.Common.Domain.PageTypes;
 
-namespace TestlessMVC.Common.Domain.PageTypes
+namespace BustlingMinds.Episerver7.Mvc.Common.Domain.PageTypes
 {
     [ContentType(DisplayName = "[Testless] Start page",
         GUID = "0671b60b-d669-47b4-99f4-4f0838b7e136",
@@ -24,8 +24,6 @@ namespace TestlessMVC.Common.Domain.PageTypes
             GroupName = SystemTabNames.Content,
             Order = 10)]
         public virtual XhtmlString MainBody { get; set; }
-
-        public virtual NewsBlock NewsBlock { get; set; }
 
         [Display(Name = "Content area",
             Description = "A content for adding any shared block",

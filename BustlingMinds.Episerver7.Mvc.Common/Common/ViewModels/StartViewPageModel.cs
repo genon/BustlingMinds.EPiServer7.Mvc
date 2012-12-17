@@ -1,14 +1,11 @@
-﻿using System.Collections.Generic;
-using EPiServer.Core;
-using TestlessMVC.Common.Domain.BlockTypes;
+﻿using EPiServer.Core;
 
-namespace TestlessMVC.Common.Common.ViewModels
+namespace BustlingMinds.Episerver7.Mvc.Common.Common.ViewModels
 {
     public class StartViewPageModel
     {
         public XhtmlString Body { get; set; }
         public string Heading { get; set; }
-        public NewsBlock News { get; set; }
         public ContentArea ContentAreaLeft { get; set; }
         public ContentArea ContentAreaRight { get; set; }
         public string Headline { get; set; }
