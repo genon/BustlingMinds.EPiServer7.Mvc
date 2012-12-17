@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" media="screen" />
+    <link href="~/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <title>@ViewBag.Title</title>
+    
+    <style type="text/css">
+        .round {
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+        .jumbotron {
+            margin: 60px 0;
+            text-align: center;
+        }
+        .jumbotron h2 {
+            font-size: 72px;
+            line-height: 1;
+        }
+        .jumbotron p {
+            margin-bottom: 20px;
+            font-size: 21px;
+            font-weight: 200;
+            line-height: 30px;
+        }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            color: #333;
+        }
+    </style>
+
+</head>
+    <body style="background-color: #FFFFFF">
+        <div class="row-fluid">
+            @{ Html.RenderAction("MainMenu", "Helper"); }
+        </div>
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </body>
+</html>
