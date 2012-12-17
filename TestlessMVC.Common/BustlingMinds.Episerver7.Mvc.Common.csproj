@@ -7,8 +7,8 @@
     <ProjectGuid>{7813F873-EFB9-4654-BE44-0A60B7207F31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestlessMVC.Common</RootNamespace>
-    <AssemblyName>TestlessMVC.Common</AssemblyName>
+    <RootNamespace>BustlingMinds.Episerver7.Mvc.Common</RootNamespace>
+    <AssemblyName>BustlingMinds.Episerver7.Mvc.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

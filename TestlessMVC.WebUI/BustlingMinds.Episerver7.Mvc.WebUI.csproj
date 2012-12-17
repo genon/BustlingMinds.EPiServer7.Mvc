@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestlessMVC.WebUI</RootNamespace>
-    <AssemblyName>TestlessMVC.WebUI</AssemblyName>
+    <RootNamespace>BustlingMinds.Episerver7.Mvc.WebUI</RootNamespace>
+    <AssemblyName>BustlingMinds.Episerver7.Mvc.WebUI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -161,9 +161,9 @@
     <Content Include="EPiServerFramework.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestlessMVC.Common\TestlessMVC.Common.csproj">
+    <ProjectReference Include="..\TestlessMVC.Common\BustlingMinds.Episerver7.Mvc.Common.csproj">
       <Project>{7813f873-efb9-4654-be44-0a60b7207f31}</Project>
-      <Name>TestlessMVC.Common</Name>
+      <Name>BustlingMinds.Episerver7.Mvc.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
